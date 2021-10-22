@@ -34,3 +34,15 @@ C:\Users\ARELIS\source\repos\IPS_Web_V1.5\IPS_Entity\obj\Debug\net5.0\IPS_Entity
 C:\Users\ARELIS\source\repos\IPS_Web_V1.5\IPS_Entity\obj\Debug\net5.0\ref\IPS_Entity.dll
 C:\Users\ARELIS\source\repos\IPS_Web_V1.5\IPS_Entity\obj\Debug\net5.0\IPS_Entity.pdb
 C:\Users\ARELIS\source\repos\IPS_Web_V1.5\IPS_Entity\obj\Debug\net5.0\IPS_Entity.csproj.AssemblyReference.cache
+C:\Users\ARELIS\source\repos\Johanna1618\IPS_Integral\IPS_Entity\bin\Debug\net5.0\IPS_Entity.deps.json
+C:\Users\ARELIS\source\repos\Johanna1618\IPS_Integral\IPS_Entity\bin\Debug\net5.0\IPS_Entity.dll
+C:\Users\ARELIS\source\repos\Johanna1618\IPS_Integral\IPS_Entity\bin\Debug\net5.0\ref\IPS_Entity.dll
+C:\Users\ARELIS\source\repos\Johanna1618\IPS_Integral\IPS_Entity\bin\Debug\net5.0\IPS_Entity.pdb
+C:\Users\ARELIS\source\repos\Johanna1618\IPS_Integral\IPS_Entity\obj\Debug\net5.0\IPS_Entity.csproj.AssemblyReference.cache
+C:\Users\ARELIS\source\repos\Johanna1618\IPS_Integral\IPS_Entity\obj\Debug\net5.0\IPS_Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ARELIS\source\repos\Johanna1618\IPS_Integral\IPS_Entity\obj\Debug\net5.0\IPS_Entity.AssemblyInfoInputs.cache
+C:\Users\ARELIS\source\repos\Johanna1618\IPS_Integral\IPS_Entity\obj\Debug\net5.0\IPS_Entity.AssemblyInfo.cs
+C:\Users\ARELIS\source\repos\Johanna1618\IPS_Integral\IPS_Entity\obj\Debug\net5.0\IPS_Entity.csproj.CoreCompileInputs.cache
+C:\Users\ARELIS\source\repos\Johanna1618\IPS_Integral\IPS_Entity\obj\Debug\net5.0\IPS_Entity.dll
+C:\Users\ARELIS\source\repos\Johanna1618\IPS_Integral\IPS_Entity\obj\Debug\net5.0\ref\IPS_Entity.dll
+C:\Users\ARELIS\source\repos\Johanna1618\IPS_Integral\IPS_Entity\obj\Debug\net5.0\IPS_Entity.pdb
