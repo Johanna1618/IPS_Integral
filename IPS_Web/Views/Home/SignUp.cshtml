@@ -1,0 +1,63 @@
+﻿@model IPS_Entity.Entity.PacienteEntity;
+
+@{
+    ViewData["Title"] = "Registrarse";
+}
+
+
+<div class="row">
+    <div class="col-md-4"> </div>
+
+    <div class="col-md-4">
+
+        <!--<img src="/image/imagen.png" class=""> -->
+
+        <form asp-action="SignupCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger2"></div>
+            <div class="form-group">
+                <label asp-for="Cedula" class="control-label">Cédula</label>
+                <input asp-for="Cedula" class="form-control textData" />
+                <span asp-validation-for="Id" class="text-danger2"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label">Nombres</label>
+                <input asp-for="Nombre" class="form-control textData" />
+                <span asp-validation-for="Nombre" class="text-danger2"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Apellidos" class="control-label">Apellidos</label>
+                <input asp-for="Apellidos" class="form-control textData" />
+                <span asp-validation-for="Apellidos" class="text-danger2"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contraseña" class="control-label">Contraseña</label>
+                <input asp-for="Contraseña" type="password" class="form-control textData" />
+                <span asp-validation-for="Contraseña" class="text-danger2"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TipoConvenio" class="control-label">Convenio</label>
+                @Html.DropDownList("TipoConvenio", (IEnumerable<SelectListItem>)ViewBag.ListCompanyDocumentType, htmlAttributes: new { @class = "form-control textData" })
+            </div>
+            <div class="form-group" align="center">
+                <input type="submit" value="Registrarse" class="btn btn-primary" />
+            </div>
+        </form>
+
+        <div align="center">
+            <form asp-action="Login">
+                <input align="center" type="submit" value="Volver" class="btn btn-success" />
+            </form>
+        </div>
+
+    </div>
+
+    <div class="col-md-4"> </div>
+
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

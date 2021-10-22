@@ -1,0 +1,53 @@
+﻿@model IPS_Entity.Entity.LoginEntity;
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="row">
+
+    <div class="col-md-4"> </div>
+
+    <div class="col-md-4">
+        <br />
+        <br />
+        <br />
+
+        <!-- <img src="/image/imagen.png" class=""> -->
+
+        @if (!string.IsNullOrEmpty(ViewBag.LoginError))
+        {
+            <div class="alert alert-danger" align="center">
+                <strong>@ViewBag.LoginError</strong>
+            </div>
+        }
+
+        <form asp-action="Home">
+            <div asp-validation-summary="ModelOnly" class="text-danger2"></div>
+            <div class="form-group">
+                <label asp-for="Cedula" class="control-label">Cédula</label>
+                <input asp-for="Cedula" class="form-control textData" />
+                <span asp-validation-for="Cedula" class="text-danger2"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contraseña" class="control-label">Contraseña</label>
+                <input asp-for="Contraseña" type="password" class="form-control textData" />
+                <span asp-validation-for="Contraseña" class="text-danger2"></span>
+            </div>
+            <div class="form-group" align="center">
+                <input type="submit" value="Iniciar sesión" class="btn btn-primary" />
+            </div>
+        </form>
+
+        <div align="center">
+            <form asp-action="SignUp">
+                <input align="center" type="submit" value="Registrarse" class="btn btn-success" />
+            </form>
+        </div>
+
+    </div>
+
+    <div class="col-md-4"></div>
+
+</div>
+

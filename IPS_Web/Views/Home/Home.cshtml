@@ -1,0 +1,51 @@
+﻿@model IPS_Entity.Entity.LoginEntity;
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+@{
+    if (!string.IsNullOrEmpty(ViewBag.LoginError))
+    {
+
+        <br />
+        <br />
+
+        <div class="row">
+            <div class="col-md-4"> </div>
+
+            <div class="col-md-4" align="center">
+                <div class="alert alert-danger">
+                    <strong>@ViewBag.LoginError</strong>
+                </div>
+                <form asp-action="Login">
+                    <input align="center" type="submit" value="Volver" class="btn btn-success" />
+                </form>
+            </div>
+
+            <div class="col-md-4"> </div>
+        </div>
+
+
+    }
+    else
+    {
+
+        <div class="row" align="center">
+            <div class="col-md-3"></div>
+
+            <div class="col-md-6">
+                <p>Imagen</p>
+                <!-- <img src="/image/imagen.png" class=""> -->
+            </div>
+
+            <div class="col-md-3">
+                <a asp-action="Login" class="Salir">
+                    <p>Salir</p>
+                    <!-- <img src="/image/imagen.png" class="" /> -->
+                </a>
+            </div>
+
+        </div>   
+        }
+    }
